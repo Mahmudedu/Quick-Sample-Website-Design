@@ -97,6 +97,23 @@ nav ul li a:hover{
 .banner-section .container .content h1 span{
     color: #008AFF;
 }
+.banner-section .container .content h1 span b{
+    /* height: 34px;  
+    display: block;       
+    width: 140px;        
+    background: black;        
+    position: absolute;        
+    top: 50%;       
+    right: 50%;      
+    transform: translate(101%, -50%);     
+    background: #0b0b0b;       
+    z-index: -1; */
+    background: #ebf1bf;
+    z-index: -1;
+    position: absolute;
+    width: 189px;
+    height: 67px;
+}
 .banner-section img {
     max-width: 500px;
 } 
@@ -203,3 +220,54 @@ footer p strong
     color: #FFF;
     letter-spacing: 3px;
 }
+
+
+/*sociallist*/
+ 
+.sociallist{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    list-style: none;
+    transform: translateY(-50%);
+    }
+    .sociallist li{
+    
+    
+    }
+    .sociallist li a{
+        /* background: #3b506c;
+        color: #ffffff;  
+        margin-bottom: 8px;     
+        border-radius: 50%;
+        width: 40px;
+        display: flex;
+        height: 40px;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        box-shadow: 3px 3px 10px #04040430;
+        border: 1px solid dotted;
+        transition: all 0.3s ease; */
+        background: #3b506c;
+        color: #ffffff; 
+        display: flex;
+        width: 50px;
+        height: 50px;
+        text-decoration: none;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 9px;
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        /* box-shadow: 9px 11px 30px #162c4866;; */
+    }
+
+    .sociallist li a:hover{
+        background: #bde0d5;
+        color: #3b506c;
+        box-shadow: 9px 11px 30px #162c4866;;
+    }
+   

@@ -96,6 +96,9 @@ nav ul li a:hover{
 }
 .banner-section .container .content h1 span{
     color: #008AFF;
+    display: block;
+    position: relative;
+    left: -90px;
 }
 .banner-section .container .content h1 span b{
     /* height: 34px;  

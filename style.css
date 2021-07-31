@@ -238,19 +238,6 @@ footer p strong
     
     }
     .sociallist li a{
-        /* background: #3b506c;
-        color: #ffffff;  
-        margin-bottom: 8px;     
-        border-radius: 50%;
-        width: 40px;
-        display: flex;
-        height: 40px;
-        align-items: center;
-        justify-content: center;
-        text-decoration: non
-        box-shadow: 3px 3px 10px #04040430;
-        border: 1px solid dotted;
-        transition: all 0.3s ease; */
         background: #3b506c;
         color: #ffffff; 
         display: flex;
